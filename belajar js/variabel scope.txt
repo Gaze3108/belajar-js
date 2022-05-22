@@ -1,0 +1,12 @@
+block scope 
+digunakan oleh c dan java
+variabel yang dibuat diblock scope hanya berlaku didalamnya tidak berlaku diluar
+jika ada yang mau mengakses diluar block maka akan error
+
+function scope
+digunakan oleh javascript
+variabel global bisa diakses dari dalam fungsi tetapi variabel fungsi/local tidak bisa diakses dari luar
+jika menginisialisasikan variabel di fungsi tanpa keyword var maka akan menutupi variabel global yang namaya sama
+'use strict' keyword berfungsi dapat membuat variabel lokal tanpa mendeklarasikan keyword var
+globalscope/window scope
+kenapa disebut karena berada di object window object terluar 
